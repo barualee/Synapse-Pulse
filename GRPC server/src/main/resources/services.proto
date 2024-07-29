@@ -1,0 +1,29 @@
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "com.coen6731.grpc";
+
+// Define the QueryRequest message with specified fields
+message QueryRequest1 {
+  string year = 1;
+  string state = 2;
+  string type = 3;
+  string length = 4;
+  string expense = 5;
+}
+
+// Define the QueryResponse message with specified fields
+message QueryResponse1 {
+  string year = 1;
+  string state = 2;
+  string type = 3;
+  string length = 4;
+  string expense = 5;
+  string value = 6;
+}
+
+
+// Define the gRPC service 
+service QueryService1 {
+  rpc GetQueryResult1 (QueryRequest1) returns (QueryResponse1);
+}
