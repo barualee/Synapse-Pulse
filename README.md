@@ -6,8 +6,8 @@ The project focuses on creating standalone services that query a MongoDB databas
 Key features include:
 
 - **gRPC Communication:** Enables seamless interaction between client and server, ensuring high performance and low latency.
-- **MongoDB Integration:** Handles complex queries and retrieves data effectively.
-- **RabbitMQ Producer-Consumer Model:** Implements a messaging pattern where the producer sends requests to a RabbitMQ queue, while multiple consumers process these requests asynchronously.
+- **MongoDB Integration:** Sample aggregation queries for effective data retrieval.
+- **RabbitMQ Producer-Consumer Model:** Implements a messaging queue with channels, producer and consumer using RabbitMQ, to handle multiple consumer requests asynchronously.
 - This enhances scalability and load distribution.
 
 This project aims to showcase sample microservice architecture, database management and message queuing systems leveraging web technologies.
