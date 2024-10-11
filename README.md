@@ -1,4 +1,4 @@
-### Project Description: Java Client-Server Application with gRPC and RabbitMQ
+### Synapse-Pulse: Java Client-Server Application with gRPC and RabbitMQ
 
 Developed a Java-based client-server application utilizing gRPC for efficient communication between services. 
 The project focuses on creating standalone services that query a MongoDB database and return responses based on specified parameters.
